@@ -1,0 +1,140 @@
+---
+title: "ITP-Shopify Store - Assignment 3 - Product Catalog Development"
+author: "Phu Loi"
+date: today
+format: 
+  html: 
+    toc: true
+    toc-depth: 4
+    toc-expand: true
+    number-sections: true
+    code-link: true
+    embed-resources: true
+    theme: flatly
+    code-fold: true
+    code-overflow: wrap
+    code-tools: true
+editor: visual
+execute: 
+  freeze: auto
+---
+
+## Introduction
+
+For this assignment I continued building out The 5th C Diamond, the Shopify practice store I started in Assignment 2. The store sells lab-grown diamond jewelry directly to consumers, mainly engagement rings and occasion pieces. The name comes from the four Cs of diamond grading (cut, color, clarity, carat) plus a fifth one, conscience, since every stone is lab-grown instead of mined.
+
+The store now has nine products across two categories, Rings and Earrings. Each product has a full set of information filled in: title, description, price, photos, inventory count, category, product type, and vendor. One thing I am glad I did is use real jewelry photos instead of stock images. It made the store feel much more like an actual business and the screenshots look more credible.
+
+::: callout-note
+This is a practice Shopify store built for course purposes. No real payments are processed and no real transactions are conducted on this site.
+:::
+
+## Product List
+
+@tbl-products lists the nine products currently in the store.
+
+| \# | Product | Category | Inventory |
+|----|----|----|----|
+| 1 | Ribbon Twist Statement Ring, Lab-Grown Diamond | Rings | 10 |
+| 2 | Heart Prong Solitaire Engagement Ring, Lab-Grown Diamond | Rings | 6 |
+| 3 | Classic Round Halo Engagement Ring in Rose Gold, Lab-Grown Diamond | Rings | 20 |
+| 4 | Fleur Pear Drop Earrings, Lab-Grown Diamond | Earrings | 10 |
+| 5 | Sunlit Fancy Pink Radiant Halo Ring, Lab-Grown Diamond | Rings | 6 |
+| 6 | Halo Square Diamond Stud Earrings, Lab-Grown Diamond | Earrings | 10 |
+| 7 | Sunlit Fancy Green Halo Ring, Lab-Grown Diamond | Rings | 0 |
+| 8 | Sunlit Fancy Yellow Solitaire Ring, Lab-Grown Diamond | Rings | 0 |
+| 9 | Sunlit Fancy Blue Halo Ring, Lab-Grown Diamond | Rings | 5 |
+
+: Product catalog of The 5th C Diamond {#tbl-products}
+
+The screenshot below is the products list view from my Shopify admin. It shows all nine products in one place with their status, inventory, category, product type, and vendor.
+
+::: callout-tip
+![](images/products-list.png)
+:::
+
+## Product Information Evidence
+
+The subsections below show the admin page for each product, where the title, description, price, image, inventory, and organization fields are all visible. When I wrote the descriptions, I kept the same four-block structure on every product: Design, Materials, Care, and Certification. I did this because diamond shoppers tend to compare a lot before buying, and having the same information in the same spot on every page makes comparing easier.[^1]
+
+[^1]: I noticed this pattern on real direct-to-consumer jewelry sites while researching for Assignment 2, so I borrowed it for my own catalog.
+
+### Rings
+
+::: panel-tabset
+#### Ribbon Twist Statement Ring
+
+This is the boldest piece in the store. Pavé-set ribbons of white gold wrap around a round brilliant center stone and twist down into a braided, diamond-lined band. I positioned it as a right-hand ring or milestone gift rather than a traditional engagement ring.
+
+![](images/product-01-ribbon-twist.png)
+
+#### Heart Prong Solitaire
+
+A round brilliant solitaire where each of the four prongs is shaped like a small heart. I liked that the detail is only visible up close, so the ring looks classic from a distance but has something personal in it.
+
+![](images/product-02-heart-prong.png)
+
+#### Classic Round Halo
+
+The most conventional engagement ring in the catalog, a round brilliant center stone inside a pavé halo on a rose gold band. The halo makes the center stone look larger, which is a practical selling point for the price-conscious buyer this store targets.
+
+![](images/product-03-round-halo.png)
+
+#### Sunlit Fancy Pink
+
+Part of the Sunlit Collection, the store's line of fancy color lab-grown diamonds. This one is a pink radiant-cut stone framed by an alternating halo of baguette and round diamonds in rose gold.
+
+![](images/product-04-sunlit-pink.png)
+
+#### Sunlit Fancy Green
+
+Another Sunlit piece, an emerald-cut fancy green stone in a simple setting. I kept the description short and let the color be the selling point.
+
+![](images/product-05-sunlit-green.png)
+
+#### Sunlit Fancy Yellow
+
+A fancy yellow stone in a minimal solitaire setting, positioned as the most wearable everyday piece in the Sunlit line.
+
+![](images/product-06-sunlit-yellow.png)
+
+#### Sunlit Fancy Blue
+
+A fancy blue stone with a diamond halo, for buyers who want color but still prefer a classic structure.
+
+![](images/product-07-sunlit-blue.png)
+:::
+
+### Earrings
+
+::: panel-tabset
+#### Fleur Pear Drop Earrings
+
+A five-petal cluster of pear-cut diamonds at the ear with a larger pear-shaped drop hanging below. These are the occasion piece of the catalog, aimed at weddings and anniversaries.
+
+![](images/product-08-fleur-earrings.png)
+
+#### Halo Square Diamond Studs
+
+Square-cut studs framed by a small halo. These are the entry point of the catalog, an everyday earring that works as a first purchase or a gift.
+
+![](images/product-09-halo-studs.png)
+:::
+
+## Product Description Quality
+
+My goal with the descriptions was to write for the customer, not for a search engine. The Design block explains what the piece looks like and who it suits in plain language. The Materials block answers the practical questions about metal, stone, and setting that diamond buyers check before spending this kind of money. The Care and Certification blocks are there to reduce the risk of buying jewelry online: complimentary cleaning signals that the store stands behind the product, and IGI certification gives an independent confirmation of what the customer is paying for.
+
+## Assortment Strategy Reflection {#sec-assortment}
+
+I built the assortment around a customer journey instead of just adding nine random pieces of jewelry. The anchor is the engagement moment. The Classic Round Halo and the Heart Prong Solitaire cover the two most popular engagement styles, one halo and one solitaire, one in rose gold and one in white gold. From there the catalog goes in two directions. The Sunlit Collection of fancy color diamonds (pink, green, yellow, and blue) is for buyers who want something more personal, and it also gives the store a signature line that a competitor selling standard white-diamond settings cannot easily copy. The earrings and the Ribbon Twist ring then cover the gifting occasions that come after an engagement, like weddings, anniversaries, and self-purchases. Everything shares the same lab-grown positioning, the same four-block description format, and the same IGI certification promise, so the nine products hopefully read as one coherent brand rather than a list of unrelated items.
+
+## CPP Farm Store Application Reflection
+
+CPP Farm Store has a version of the same problem I ran into, just in a harder category. Its products range from produce to meats, plants, and gift items, and an online shopper cannot smell, touch, or taste any of it. What I took away from building this catalog is that the product information has to do the work the senses normally do. That means complete and consistent product pages with photos of the actual items, honest descriptions of size and contents, and visible availability, since farm products are seasonal. It also means organizing categories around how customers shop, like "weekend produce box" or "gift for a Cal Poly alum," instead of how the farm is organized internally. Finally, the Farm Store has its own version of my IGI certification story: everything is grown and made by students on campus. That is a trust signal no competitor can copy, and I think it belongs on every single product page, not just the About page.
+
+## Appendix
+
+GitHub Repository: <https://github.com/PhuLoi66/5th-c-diamond-catalog>
+
+GitHub Pages (Published Report): <https://phuloi66.github.io/5th-c-diamond-catalog/>
